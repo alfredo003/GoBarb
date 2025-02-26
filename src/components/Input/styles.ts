@@ -60,16 +60,14 @@ input {
 export const Error = styled(Tooltip)`
   height: 20px;
   margin-left: 16px;
-  svg{
+
+  svg {
     margin: 0;
   }
-
-  span{
+  span {
     background: #c53030;
     color: #fff;
-
-    &::before
-    {
+    &::before {
       border-color: #c53030 transparent;
     }
   }
